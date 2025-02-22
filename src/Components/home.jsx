@@ -38,7 +38,7 @@ const Home = () => {
           </div>
         </div>
                <Projects/>  
-       <ContactForm/>
+       
        
       </div>
     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.scss";
 import ContactForm from "./contacform";
+import Services from "./Services";
 const About = () => {
   return (
     <div className="about-main ">
@@ -9,7 +10,7 @@ const About = () => {
             <div className="right_sec">
               <div>
                 
-                <p className="name hover:animate-bounce hover:text-color-red text-blue-800">
+                <p className="name   ">
                 About me
                 </p>
                 <p className="content">
@@ -34,7 +35,8 @@ const About = () => {
             </div>
           
           </div>
-          <ContactForm/>
+          {/* <ContactForm/> */}
+          <Services/>
     </div>
 
   );
