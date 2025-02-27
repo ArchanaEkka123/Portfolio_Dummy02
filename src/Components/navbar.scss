@@ -1,35 +1,48 @@
 nav {
-  padding: 10px;
-  z-index: 1000;
+    padding: 10px;
+    z-index: 1000;
   position: fixed;
   padding-left: 100px;
   padding-right: 100px;
+  @media (max-width: 700px) {
+    padding-left: 50px;
+  padding-right: 50px;
+  }
+  @media (max-width: 400px) {
+   width: 300px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 .navbar {
  
-        display: flex;
+  display: flex;
   justify-content:space-between;
   align-items: center;
   position: relative;
 color: black;
-  @media (max-width: 800px) {
-    gap: 20px;  
-  }
+width: 100%;
+@media (max-width: 400px) {
+  justify-content:center;
+  width: 360px;
 }
-.nav_icon {
+}
+.nav_heading {
   display: flex;
   float: left;
-  position: absolute;
-  // justify-content: left;
-  left: 20px;
-
-  @media (max-width: 800px) {
-    width: 50px;
-    height: 50px;
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  @media (max-width: 700px) {
+    font-size: 20px;
   }
 
-  @media (max-width: 420px) {
-    display: none;
+  @media (max-width: 550px) {
+    font-size: 16px;
+  }
+   @media (max-width: 400px) {
+    display:none;
+    
   }
 }
 

@@ -8,29 +8,31 @@ const Home = () => {
   return (
     
     <div className="main_outter">
-    {/* <div className="nav-holder w-screen"><Navbar/></div>   */}
+    
       <div className="main">
         <div className="home_sec01">
-          <div className="sec_con">
-            <div className="right_sec">
-              <div>
+        
+          <div className="home-sec">
+            <div className="home-left   ">   
+              <div className="content-holder  ">
                 <p className="content-1">Fontend Developer</p>
-                <p className="name hover:animate-bounce hover:text-color-red text-blue-800">
+                <p className="home-heading">
+                {/* text-5xl  text-gray-700 */}
                   Hello, my name is Madelyn Torff
                 </p>
-                <p className="content">
+                <p className="home-content  text-gray-400">
                   I'm a frontend developer and work in Raipur Chhattishgarh
                 </p>
-                <div className="button-holder gap-12 w-80 mt-20 ">
+                <div className="button-holder m-10 ">  
                 <button className="button">Projects</button>
-                <button className="button-2 ">LinkedIn</button>
+                <button className="button-2  ml-5">LinkedIn</button>
               </div>
               </div>
              
             </div>
-            <div className="left_sec">
+            <div className="home-right ">
               <img
-                className=""
+                className="myimage"
                 src="/images/profile-image.png"
                 alt="Description of the image"
               />

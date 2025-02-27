@@ -7,16 +7,17 @@ import Navbar from "./navbar";
 const Projects = () => {
   return (
     <div className="projects-main">
-        <div className="heading-box "><h1 className="heading font-bold "> Projects</h1>
+        <div className="heading-box ">
+          <h1 className="projects-heading font-bold "> Projects</h1>
         <div className="underline"></div></div>
             <div className="sec_holder">
         <div className=" left-box ">
                       <p className="heading-sub">Project Name</p>
-            <p className="content">
+            <p className="projects-content">
               I created this personal project in order to show how to create an
               interface in Figma using a portfolio as an example.
             </p>
-            <div className="button-holder gap-12 w-80 mt-20 ">
+            <div className="button-holder  ">
               <button className="button-view">View Project</button>
             </div>
           
@@ -26,7 +27,7 @@ const Projects = () => {
             className="right-box-image rounded-r-2xl "
             src="/images/projects-1.jpg"
             alt="Description of the image"
-          />
+          />  
         </div>
       </div>
 
@@ -44,12 +45,12 @@ const Projects = () => {
         <div className=" left-box ">
           
             <p className="heading-sub">Project Name</p>
-            <p className="content">
+            <p className="projects-content">
               I created this personal project in order to show how to create an
               interface in Figma using a portfolio as an example.
             </p>
 
-            <div className="button-holder gap-12 w-80 mt-20 ">
+            <div className="button-holder  ">
               <button className="button-view">View Project</button>
             </div>
           
@@ -61,12 +62,12 @@ const Projects = () => {
         <div className=" left-box ">
           
             <p className="heading-sub">Project Name</p>
-            <p className="content">
+            <p className="projects-content">
               I created this personal project in order to show how to create an
               interface in Figma using a portfolio as an example.
             </p>
 
-            <div className="button-holder gap-12 w-80 mt-20 ">
+            <div className="button-holder ">
               <button className="button-view">View Project</button>
             </div>
                   </div>
